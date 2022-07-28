@@ -83,7 +83,7 @@ class Rectangle_New extends Square {
     }
 }
 
-public class Shape_Main {
+public class Question4_Shape_Main {
     public static void main(String[] args) {
         Shape_Type[] shape_types = new Shape_Type[10];
         Scanner scanner = new Scanner(System.in);
@@ -110,3 +110,16 @@ public class Shape_Main {
         }
     }
 }
+
+/*
+Output
+
+Enter no of shapes
+6
+Area of Circle is : 452.38934
+Area of Square is : 144.0
+Area of Cylinder is : 452.38934
+Area of Rectangle is : 50
+Area of Cylinder is : 452.38934
+Area of Square is : 144.0
+ */

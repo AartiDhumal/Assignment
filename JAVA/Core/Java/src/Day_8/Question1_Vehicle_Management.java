@@ -26,7 +26,7 @@ class Truck extends Vehicle {
     }
 }
 
-public class Vehicle_Management {
+public class Question1_Vehicle_Management {
     public static void main(String[] args) {
         Vehicle vehicle;
         vehicle = new Car();
@@ -35,3 +35,13 @@ public class Vehicle_Management {
         vehicle.engine();
     }
 }
+
+/*
+Output
+
+Car has good engine
+Truck has bad engine
+
+ */
+
+

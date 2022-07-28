@@ -38,7 +38,7 @@ class Guitar extends Instrument {
     }
 }
 
-public class Instrument_Player {
+public class Question2_Instrument_Player {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Instrument[] instruments = new Instrument[10];
@@ -60,3 +60,20 @@ public class Instrument_Player {
         }
     }
 }
+
+/*
+Output
+
+Playing instruments
+Piano is playing tan tan tan tan
+Flute is playing toot toot toot toot
+Guitar is playing tin tin tin
+Guitar is playing tin tin tin
+Piano is playing tan tan tan tan
+Flute is playing toot toot toot toot
+Piano is playing tan tan tan tan
+Piano is playing tan tan tan tan
+Flute is playing toot toot toot toot
+Flute is playing toot toot toot toot
+
+ */

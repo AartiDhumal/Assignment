@@ -1,3 +1,11 @@
+/**
+ 2. Create an abstract class Instrument which has the abstract function play.
+ Create three more subclasses from Instrument which are Piano, Flute, Guitar.
+ Override the play method inside all three classes printing a message.
+ "Piano is playing tan tan tan tan" for Piano class "Flute is playing toot toot toot toot"
+ for Flute class "Guitar is playing tin tin tin" for Guitar class
+ */
+
 package Day_8;
 
 import java.util.Scanner;

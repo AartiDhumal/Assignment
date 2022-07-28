@@ -1,3 +1,9 @@
+/**
+ 1. Write a program in which you will declare an abstract class Vehicle inherits this class from
+ two classes car and truck using the method engine in both display "car has good engine" and "truck has
+ bad engine".
+ */
+
 package Day_8;
 
 abstract class Vehicle {

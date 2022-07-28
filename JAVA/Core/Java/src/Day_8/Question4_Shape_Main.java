@@ -1,3 +1,17 @@
+/**
+ 4. Create an abstract class shape with abstract method void area();
+ create 4 more classes circle, cylinder, square and rectangle
+ shape
+ circle
+ cylinder
+ square
+ rectangle
+ SHAPE is parent for circle and square, and circle is parent for cylinder,rectangle is child
+ of square.
+ Override the area() in all the classes Create an array of references of type shape in
+ TestShape class and print the area of different types of shapes.
+ */
+
 package Day_8;
 
 import java.util.Scanner;

@@ -23,14 +23,14 @@ enum Signal_Case {
     }
 }
 
-public class Signal {
+public class Question5_Signal {
     static void show() {
         for(Signal_Case signal_case : Signal_Case.values()){
             System.out.println(signal_case.name()+" Means "+signal_case.get_result());
         }
     }
     public static void main(String[] args) {
-        Signal.show();
+        Question5_Signal.show();
     }
 }
 

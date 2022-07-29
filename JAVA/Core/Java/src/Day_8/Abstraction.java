@@ -1,5 +1,5 @@
 package Day_8;
-//if you are declaring any method in nirmal class  you have to declare it as abstract method
+//if you are declaring any method in normal class you have to declare it as abstract method
 //if any class contain abstract method that class need to be declared as an abstract class
 //in any abstract class you can add "n"(0...n) number of abstract as well as concrete method
 //if you extend an abstract class, it is child class responsibility to implement abstract method

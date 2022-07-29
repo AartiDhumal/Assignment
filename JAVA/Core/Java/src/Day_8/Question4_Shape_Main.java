@@ -92,21 +92,24 @@ public class Question4_Shape_Main {
         for(int i = 0; i < number; i++){
             int type = (int)(Math.random()*100);
             if(type >= 0 && type <=25){
-                shape_types[i] = new Circle_New(12);
-                shape_types[i].area();
+                shape_types[i] = new Circle_New(9);
+//                shape_types[i].area();
             }
             else if (type >= 26 && type <=50) {
-                shape_types[i] = new Square(12);
-                shape_types[i].area();
+                shape_types[i] = new Square(4);
+//                shape_types[i].area();
             }
             else if (type >= 51 && type <=75) {
-                shape_types[i] = new Cylinder(6,12);
-                shape_types[i].area();
+                shape_types[i] = new Cylinder(6,15);
+//                shape_types[i].area();
             }
             else if (type >= 76 && type <= 100) {
                 shape_types[i] = new Rectangle_New(10,5);
-                shape_types[i].area();
+//                shape_types[i].area();
             }
+        }
+        for(int i=0; i<number;i++){
+            shape_types[i].area();
         }
     }
 }

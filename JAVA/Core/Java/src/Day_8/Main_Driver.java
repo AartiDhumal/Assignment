@@ -27,18 +27,18 @@ class Rectangle implements Shape_New {
         System.out.println("Area is : "+area);
     }
 
-//    @Override
-////    public void display_new() {
-////        Shape_New.super.display_new();
-////        System.out.println("Hello");
-////    }
+    @Override
+    public void display_new() {
+        Shape_New.super.display_new();
+        System.out.println("Hello");
+    }
 }
 
 public class Main_Driver {
     public static void main(String[] args) {
         Rectangle rectangle = new Rectangle();
         rectangle.area();
-//        rectangle.display_new();
+        rectangle.display_new();
         Shape_New.display();
         Shape_New s = new Rectangle();
         s.display_new();

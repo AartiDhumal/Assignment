@@ -16,7 +16,6 @@ Check the polymorphic behavior of the displayLabel() method.
 import java.util.Random;
 
 abstract class Medicine {
-    static int a = 0;
     abstract void displayLabel();
 }
 

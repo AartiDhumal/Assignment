@@ -1,5 +1,5 @@
 package Day_9;
-/*
+/**
 Write a program using enum which will print following output
 Add enum RED('STOP"),GREEN("GO"),YELLOw"DRIVE VERY SLOW")
 Try to print values

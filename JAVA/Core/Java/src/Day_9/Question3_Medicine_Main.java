@@ -1,6 +1,5 @@
-package Day_8;
-
-/*
+package Day_9;
+/**
 Create a class Medicine to represent a drug manufactured by a pharmaceutical company.
 Provide a function display Label() in this class to print Name and address of the company.
 Derive Tablet, Syrup and Ointment classes from the Medicine class.
@@ -17,6 +16,7 @@ Check the polymorphic behavior of the displayLabel() method.
 import java.util.Random;
 
 abstract class Medicine {
+    static int a = 0;
     abstract void displayLabel();
 }
 
@@ -41,8 +41,9 @@ class ointment extends Medicine {
     }
 }
 
-public class Medicine_Main {
+public class Question3_Medicine_Main {
     public static void main(String[] args) {
+        System.out.println("Company is Sun-Pharma and address is Himachal");
 
         Medicine[] medicines = new Medicine[10];
         Random random = new Random();
@@ -59,7 +60,6 @@ public class Medicine_Main {
             else
                 medicines[i] = new ointment();
         }
-
         for (int i = 0; i < 10; i++){
             medicines[i].displayLabel();
         }
@@ -71,14 +71,16 @@ public class Medicine_Main {
 /*
 Output
 
+Company is Sun-Pharma and address is Himachal
+Store in cool dry place
 Store in cool place and shake it before consuming
+Store in cool place and shake it before consuming
+For external use only
 For external use only
 Store in cool dry place
 Store in cool place and shake it before consuming
 For external use only
 Store in cool place and shake it before consuming
 Store in cool place and shake it before consuming
-For external use only
-Store in cool dry place
-Store in cool dry place
+
  */

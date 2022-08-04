@@ -24,7 +24,7 @@ public class Question7_Token {
 }
 
 
-
+//What if we added more numbers in string ,so generalise it
 /*
 
 Output
